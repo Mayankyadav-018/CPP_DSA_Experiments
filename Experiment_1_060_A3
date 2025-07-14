@@ -1,0 +1,51 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+    int a;
+    cout << "Enter any integer:";
+    cin >> a;
+    cout << "Integer =" << a << " and size is: " << sizeof(a) << "bytes" << endl;
+    
+    float b;
+    cout << "Enter any number with decimal:";
+    cin >>  b;
+    cout << "Float =" << b << " and size is: " << sizeof(b) << "bytes" << endl;
+    
+    double d;
+    cout << "Enter any number:";
+    cin >>  d;
+    cout << "Double =" << d << " and size is: " << sizeof(d) << "bytes" << endl;
+    
+    char c;
+    cout << "Enter any character:";
+    cin >>  c;
+    cout << "Character =" << c << " and size is: " << sizeof(c) << "bytes" << endl;
+    
+    string s;
+    cout << "Enter any string:";
+    cin >>  s;
+    cout << "String =" << s << " and size is: " << sizeof(s) << "bytes" << endl;
+    
+    bool printTrue = true;
+    bool printFalse = false;
+    cout << printTrue<<endl;
+    cout << "Size of bool is =" << sizeof(printTrue)<<"bytes";
+    return 0;
+}
+
+
+
+
+/* Enter any integer:10
+Integer =10 and size is: 4bytes
+Enter any number with decimal:10.07
+Float =10.07 and size is: 4bytes
+Enter any number:10072005
+Double =1.0072e+07 and size is: 8bytes
+Enter any character:M
+Character =M and size is: 1bytes
+Enter any string:MayankYadav
+String =MayankYadav and size is: 32bytes
+1
+Size of bool is =1bytes */
