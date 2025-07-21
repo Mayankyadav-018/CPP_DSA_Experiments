@@ -66,6 +66,21 @@ return0;
 •	The next line cout << "Hello World"; causes the message "Hello World" to be displayed on the screen.
 •	The next line return 0; terminates main( )function and causes it to return the value 0 to the calling process.
 
+Algorithm: Basic Arithmetic Operations(Calculator)
+1) Start
+2) Declare two integer variables: a and b
+3) Display "Enter first number:"
+4) Read input and store it in a
+5) Display "Enter second number:"
+6) Read input and store it in b
+7) Calculate a + b and display "Addition: " followed by the result
+8) Calculate a - b and display "Subtraction: " followed by the result
+9) Calculate a * b and display "Multiplication: " followed by the result
+10) Calculate a / b and display "Division: " followed by the result (assume b ≠ 0)
+11) End
+
+
+
 Conclusion:
 In this experiment, we successfully installed Visual Studio Code and set up the environment for C++ programming.
 We wrote and executed a simple "Hello World" program, which verified that the compiler and editor were configured correctly.
